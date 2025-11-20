@@ -19,5 +19,6 @@ async function checkWeather(city){
     document.querySelector('.wind-speed').innerHTML = data.wind.speed + ' km/h';
     document.querySelector('.uv-index').innerHTML = data.main.uvi;
     document.querySelector('.weather-icon').src = 'https://openweathermap.org/img/wn/' + data.weather[0].icon + '.png';
+    
 }
 // checkWeather();
